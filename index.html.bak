@@ -1,0 +1,1305 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>CSM - Center for Superfunctional Materials</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<meta name="author" content="CSM" />
+<meta name="description" content="Center for Superfunctional Materials">
+
+<link rel="stylesheet" href="mb.css" type="text/css">
+    
+<style type="text/css">
+
+a.ovalbutton{
+background: transparent url('../btimg/oval-gray-left.gif') no-repeat top left;
+display: block;
+float: left;
+font: normal 13px Tahoma; /* Change 13px as desired */
+line-height: 16px; /* This value + 4px + 4px (top and bottom padding of SPAN) must equal height of button background (default is 24px) */
+height: 24px; /* Height of button background height */
+padding-left: 11px; /* Width of left menu image */
+text-decoration: none;
+}
+
+a:link.ovalbutton, a:visited.ovalbutton, a:active.ovalbutton{
+color: #494949; /*button text color*/
+}
+
+a.ovalbutton span{
+background: transparent url('../btimg/oval-gray-right.gif') no-repeat top right;
+display: block;
+padding: 4px 11px 4px 0; /*Set 11px below to match value of 'padding-left' value above*/
+}
+
+a.ovalbutton:hover{ /* Hover state CSS */
+background-position: bottom left;
+}
+
+a.ovalbutton:hover span{ /* Hover state CSS */
+background-position: bottom right;
+color: black;
+}
+
+.buttonwrapper{ /* Container you can use to surround a CSS button to clear float */
+overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+width: 100%;
+}
+
+a.green{
+background: transparent url('../btimg/oval-green-left.gif') no-repeat top left
+}
+
+a.green span{
+background: transparent url('../btimg/oval-green-right.gif') no-repeat top right;
+}
+
+a.orange{
+background: transparent url('../btimg/oval-orange-left.gif') no-repeat top left
+}
+
+a.orange span{
+background: transparent url('../btimg/oval-orange-right.gif') no-repeat top right;
+}
+
+a.blue{
+background: transparent url('../btimg/oval-blue-left.gif') no-repeat top left
+}
+
+a.blue span{
+background: transparent url('../btimg/oval-blue-right.gif') no-repeat top right;
+}
+
+a.red{
+background: transparent url('../btimg/oval-red-left.gif') no-repeat top left
+}
+
+a.red span{
+background: transparent url('../btimg/oval-red-right.gif') no-repeat top right;
+}
+
+</style>   
+    
+
+</head>
+
+<link rel="stylesheet" href="style.css" type="text/css">
+
+<script type="text/javascript" language="JavaScript">
+<!-- Copyright 2006,2007 Bontrager Connection, LLC
+// http://bontragerconnection.com/ and http://www.willmaster.com/
+// Version: July 28, 2007
+var cX = 0; var cY = 0; var rX = 0; var rY = 0;
+function UpdateCursorPosition(e){ cX = e.pageX; cY = e.pageY;}
+function UpdateCursorPositionDocAll(e){ cX = event.clientX; cY = event.clientY;}
+if(document.all) { document.onmousemove = UpdateCursorPositionDocAll; }
+else { document.onmousemove = UpdateCursorPosition; }
+function AssignPosition(d) {
+if(self.pageYOffset) {
+	rX = self.pageXOffset;
+	rY = self.pageYOffset;
+	}
+else if(document.documentElement && document.documentElement.scrollTop) {
+	rX = document.documentElement.scrollLeft;
+	rY = document.documentElement.scrollTop;
+	}
+else if(document.body) {
+	rX = document.body.scrollLeft;
+	rY = document.body.scrollTop;
+	}
+if(document.all) {
+	cX += rX; 
+	cY += rY;
+	}
+d.style.left = (cX+10) + "px";
+d.style.top = (cY-180) + "px";
+}
+function HideContent(d) {
+if(d.length < 1) { return; }
+document.getElementById(d).style.display = "none";
+}
+function ShowContent(d) {
+if(d.length < 1) { return; }
+var dd = document.getElementById(d);
+AssignPosition(dd);
+dd.style.display = "block";
+}
+function ReverseContentDisplay(d) {
+if(d.length < 1) { return; }
+var dd = document.getElementById(d);
+AssignPosition(dd);
+if(dd.style.display == "none") { dd.style.display = "block"; }
+else { dd.style.display = "none"; }
+}
+//-->
+</script>
+
+
+<BODY>
+<a id="t" 
+      name="top"></a>
+<br />
+<TABLE border=0 cellSpacing=0 cellPadding=8 width=800 align=center>
+  <TBODY>
+  <TR>
+    <TD align=left vAlign=top>
+    <div class="buttonwrapper" style="background-color:#ffffff"> 
+    <a class="ovalbutton" href="../index.html"><span>CSM</span></a> 
+    <a class="ovalbutton" href="../kim/index.html" style="margin-left: 6px"><span>Kwang S. Kim</span></a> 
+    <a class="ovalbutton red" href="../research/index.html" style="margin-left: 6px"><span>Research</span></a> 
+    <a class="ovalbutton red" href="../publications/index.html" style="margin-left: 6px"><span>Publication</span></a> 
+    <a class="ovalbutton orange" href="index.html" style="margin-left: 6px"><span>Members</span></a> 
+    <a class="ovalbutton orange" href="../gallery/index.html" style="margin-left: 6px"><span>Gallery</span></a> 
+    <a class="ovalbutton green" href="../news/index.html" style="margin-left: 6px"><span>News</span></a> 
+    <a class="ovalbutton green" href="../opportunities/index.html" style="margin-left: 6px"><span>Opportunities</span></a> 
+    <a class="ovalbutton blue" href="../support/index.html" style="margin-left: 6px"><span>Support</span></a> 
+    <a class="ovalbutton blue" href="../contact/index.html" style="margin-left: 6px"><span>Contact</span></a> </div>
+   
+   
+
+
+
+    </TD>
+    </TR>
+  <TR>
+    <TD align=left vAlign=top style="border: none;">
+    
+
+    <table width="800" bgcolor="#ffffff" cellSpacing=0 border=7 bordercolor="#f5b366" style="border-style:solid;">
+      <tr bordercolor="#ffffff">
+        <td style="border: none;">
+        <div class="lrpadding">
+        
+        <P class=boxedtext align=center><SPAN class=subhd0><A href="#Group" class="rel">1. Group 
+      Members</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A href="#Col" class="rel">2. 
+      Collaborators</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A href="#Al" class="rel">3. Alumni</A></SPAN>
+      
+      </P>
+      </div>
+      </td>
+      </tr>
+      <tr bordercolor="#ffffff">
+        <td style="border: none;">
+        
+        <div class="lrpadding">
+        <span class="head1"><a id="Group" 
+      name="GroupMembers"></a>1. Group Members</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#t">go to top</a>&nbsp;&nbsp;&nbsp;&nbsp;<i>Mouseovering a name : Profile picture</i></td></tr>
+      
+      </div>
+      <tr bordercolor="#ffffff">
+        <td style="border: none;">
+        <div class="lrpadding3">
+        <TABLE border=0 cellSpacing=0 cellPadding=0 width=710 align=center>
+        <TBODY>
+        <TR>
+          <TD class=subhd1>
+            <DIV align=center>Name</DIV></TD>
+          <TD class=subhd1>
+            <DIV align=center>Nationality</DIV></TD>
+          <TD class=subhd1>
+            <DIV align=center>Position</DIV></TD>
+          <TD class=subhd1>
+            <DIV align=center>Field</DIV></TD>
+          <TD class=subhd1>
+            <DIV align=center>E-mail</DIV></TD>
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname1'); return true;" 
+            onmousemove="ShowContent('uqname1'); return true;" 
+            onmouseout="HideContent('uqname1'); return true;" align=center><A><u>Kwang S. Kim</u></A></DIV>
+            <DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname1 align=center><IMG 
+            src="kimstand.jpg"></IMG></DIV></TD>
+          <TD>
+            <DIV align=center>Korea</DIV></TD>
+          <TD>
+            <DIV align=center>Principal Investigator</DIV></TD>
+          <TD>
+            <DIV align=center>Theo.</DIV></TD>
+          <TD>
+            <DIV align=center>kimks@unist.ac.kr</DIV></TD></TR>
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname5'); return true;" 
+            onmousemove="ShowContent('uqname5'); return true;" 
+            onmouseout="HideContent('uqname5'); return true;" align=center><A><u>Han Myung Lee</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname5 align=center><IMG 
+            src="hanmyunglee.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>Korea</DIV></TD>
+          <TD>
+            <DIV align=center>Research Assistant Professor</DIV></TD>
+          <TD>
+            <DIV align=center>Theo.</DIV></TD>
+          <TD>
+            <DIV align=center>hmlee@unist.ac.kr</DIV></TD></TR>
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname7'); return true;" 
+            onmousemove="ShowContent('uqname7'); return true;" 
+            onmouseout="HideContent('uqname7'); return true;" align=center><A href="soohaengyoo/index.html">Soohaeng Yoo Willow</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname7 align=center><IMG 
+            src="soohaengyoo.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>Korea</DIV></TD>
+          <TD>
+            <DIV align=center>Senior Research Scientist</DIV></TD>
+          <TD>
+            <DIV align=center>Theo.</DIV></TD>
+          <TD>
+            <DIV align=center>syoo70@gmail.com</DIV></TD></TR>
+
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname9'); return true;" 
+            onmousemove="ShowContent('uqname9'); return true;" 
+            onmouseout="HideContent('uqname9'); return true;" align=center><A><u>Wang Lihua</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname9 align=center><IMG 
+            src="wanglihua.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>China</DIV></TD>
+          <TD>
+            <DIV align=center>Post-Doctoral Researcher</DIV></TD>
+          <TD>
+            <DIV align=center>Theo.</DIV></TD>
+          <TD>
+            <DIV align=center>lihuawang@unist.ac.kr</DIV></TD></TR>
+    
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname17'); return true;" 
+            onmousemove="ShowContent('uqname17'); return true;" 
+            onmouseout="HideContent('uqname17'); return true;" align=center><A><u>Seung Kyu Min</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname17 align=center><IMG 
+            src="seungkyumin.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>Korea</DIV></TD>
+          <TD>
+            <DIV align=center>Post-Doctoral Research Associate</DIV></TD>
+          <TD>
+            <DIV align=center>Theo.</DIV></TD>
+          <TD>
+            <DIV align=center>skmin@mpi-halle.mpg.de</DIV></TD></TR>
+
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname21'); return true;" 
+            onmousemove="ShowContent('uqname21'); return true;" 
+            onmouseout="HideContent('uqname21'); return true;" align=center><A><u>Woo Jong Cho</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname21 align=center><IMG 
+            src="woojongcho.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>Korea</DIV></TD>
+          <TD>
+            <DIV align=center>Post-Doctoral Researcher</DIV></TD>
+          <TD>
+            <DIV align=center>Theo.</DIV></TD>
+          <TD>
+            <DIV align=center>woojongcho@unist.ac.kr</DIV></TD></TR>
+
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname22'); return true;" 
+            onmousemove="ShowContent('uqname22'); return true;" 
+            onmouseout="HideContent('uqname22'); return true;" align=center><A><u>Simil Tomas</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname22 align=center><IMG 
+            src="similtomas.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>India</DIV></TD>
+          <TD>
+            <DIV align=center>Post-Doctoral Researcher</DIV></TD>
+          <TD>
+            <DIV align=center>Theo.</DIV></TD>
+          <TD>
+            <DIV align=center>similt@gmail.com</DIV></TD></TR>
+
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname25'); return true;" 
+            onmousemove="ShowContent('uqname25'); return true;" 
+            onmouseout="HideContent('uqname25'); return true;" align=center><A><u>Mohsen 
+          Sabbaghi</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname25 align=center><IMG 
+            src="mohsensabbaghi.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>Iran</DIV></TD>
+          <TD>
+            <DIV align=center>Research Associate</DIV></TD>
+          <TD>
+            <DIV align=center>Theo.</DIV></TD>
+          <TD>
+            <DIV align=center>sabbaghi.mohsen@gmail.com</DIV></TD></TR>
+
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname27'); return true;" 
+            onmousemove="ShowContent('uqname27'); return true;" 
+            onmouseout="HideContent('uqname27'); return true;" align=center><A><u>Il-Seung Yoon</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname27 align=center><IMG 
+            src="ilseungyoon.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>Korea</DIV></TD>
+          <TD>
+            <DIV align=center>Ph.D. candidate</DIV></TD>
+          <TD>
+            <DIV align=center>Theo.</DIV></TD>
+          <TD>
+            <DIV align=center>sniperclown@postech.ac.kr</DIV></TD></TR>
+
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname26'); return true;" 
+            onmousemove="ShowContent('uqname26'); return true;" 
+            onmouseout="HideContent('uqname26'); return true;" align=center><A><u>Jeong-Hun Yun</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname26 align=center><IMG 
+            src="jeonghunyun.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>Korea</DIV></TD>
+          <TD>
+            <DIV align=center>Ph.D. candidate</DIV></TD>
+          <TD>
+            <DIV align=center>Theo.</DIV></TD>
+          <TD>
+            <DIV align=center>yjh9898@postech.ac.kr</DIV></TD></TR>
+
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname30'); return true;" 
+            onmousemove="ShowContent('uqname30'); return true;" 
+            onmouseout="HideContent('uqname30'); return true;" align=center><A><u>Nannan Li</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname30 align=center><IMG 
+            src="nannanli.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>China</DIV></TD>
+          <TD>
+            <DIV align=center>Ph.D. candidate</DIV></TD>
+          <TD>
+            <DIV align=center>Theo.</DIV></TD>
+          <TD>
+            <DIV align=center>linannan@postech.ac.kr</DIV></TD></TR>
+	
+		<TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname22'); return true;" 
+            onmousemove="ShowContent('uqname22'); return true;" 
+            onmouseout="HideContent('uqname22'); return true;" align=center><A><u>Reza 
+            Rezapour</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname22 align=center><IMG 
+            src="mohamadrezarezapour.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>Iran</DIV></TD>
+          <TD>
+            <DIV align=center>Ph.D. candidate</DIV></TD>
+          <TD>
+            <DIV align=center>Theo.</DIV></TD>
+          <TD>
+            <DIV align=center>rezapour@postech.ac.kr</DIV></TD></TR>
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname23'); return true;" 
+            onmousemove="ShowContent('uqname23'); return true;" 
+            onmouseout="HideContent('uqname23'); return true;" align=center><A><u>Arun Kumar</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname23 align=center><IMG 
+            src="arunkumar.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>India</DIV></TD>
+          <TD>
+            <DIV align=center>Ph.D. candidate</DIV></TD>
+          <TD>
+            <DIV align=center>Theo.</DIV></TD>
+          <TD>
+            <DIV align=center>arunkumar@postech.ac.kr</DIV></TD></TR>
+
+		<TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname28'); return true;" 
+            onmousemove="ShowContent('uqname28'); return true;" 
+            onmouseout="HideContent('uqname28'); return true;" align=center><A><u>Seongsoo Choi</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname28 align=center><IMG 
+            src="seongsoochoi.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>Korea</DIV></TD>
+          <TD>
+            <DIV align=center>Ph.D. candidate</DIV></TD>
+          <TD>
+            <DIV align=center>Theo.</DIV></TD>
+          <TD>
+            <DIV align=center>sschoi@postech.ac.kr</DIV></TD></TR>
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname24'); return true;" 
+            onmousemove="ShowContent('uqname24'); return true;" 
+            onmouseout="HideContent('uqname24'); return true;" align=center><A><u>Khaqan Shati</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname24 align=center><IMG 
+            src="khaqanshati.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>Pakistan</DIV></TD>
+          <TD>
+            <DIV align=center>Ph.D. candidate</DIV></TD>
+          <TD>
+            <DIV align=center>Theo.</DIV></TD>
+          <TD>
+            <DIV align=center>khaqanshati@postech.ac.kr</DIV></TD></TR>
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname29'); return true;" 
+            onmousemove="ShowContent('uqname29'); return true;" 
+            onmouseout="HideContent('uqname29'); return true;" align=center><A><u>Ho-shin Kong</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname29 align=center><IMG 
+            src="hoshinkong.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>Korea</DIV></TD>
+          <TD>
+            <DIV align=center>Ph.D. candidate</DIV></TD>
+          <TD>
+            <DIV align=center>Theo.</DIV></TD>
+          <TD>
+            <DIV align=center>stinghs@postech.ac.kr</DIV></TD></TR>
+
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname69'); return true;" 
+            onmousemove="ShowContent('uqname69'); return true;" 
+            onmouseout="HideContent('uqname69'); return true;" align=center><A><u>Doan Van Dung</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname69 align=center><IMG 
+            src="doanvandung.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>Vietnam</DIV></TD>
+          <TD>
+            <DIV align=center>Ph.D. student</DIV></TD>
+          <TD>
+            <DIV align=center>Theo.</DIV></TD>
+          <TD>
+            <DIV align=center>doandung1988@postech.ac.kr</DIV></TD></TR>
+
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname32'); return true;" 
+            onmousemove="ShowContent('uqname32'); return true;" 
+            onmouseout="HideContent('uqname32'); return true;" align=center><A><u>Young-Shin 
+Park</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname32 align=center><IMG 
+            src="youngshinpark.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>Korea</DIV></TD>
+          <TD>
+            <DIV align=center>Research Assistant Professor</DIV></TD>
+          <TD>
+            <DIV align=center>Exp.</DIV></TD>
+          <TD>
+            <DIV align=center>ysinpark@unist.ac.kr</DIV></TD></TR>
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname33'); return true;" 
+            onmousemove="ShowContent('uqname33'); return true;" 
+            onmouseout="HideContent('uqname33'); return true;" align=center><A><u>Changbae Hyun</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname33 align=center><IMG 
+            src="ChangbadHyun.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>Korea</DIV></TD>
+          <TD>
+            <DIV align=center>Research Assistant Professor</DIV></TD>
+          <TD>
+            <DIV align=center>Exp.</DIV></TD>
+          <TD>
+            <DIV align=center>changbaehyun@unist.ac.kr</DIV></TD></TR>
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname38'); return true;" 
+            onmousemove="ShowContent('uqname38'); return true;" 
+            onmouseout="HideContent('uqname38'); return true;" align=center><A><u>Tiwari</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname38 align=center><IMG 
+            src="tiwari.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>India</DIV></TD>
+          <TD>
+            <DIV align=center>Senior Research Scientist</DIV></TD>
+          <TD>
+            <DIV align=center>Exp.</DIV></TD>
+          <TD>
+            <DIV align=center>jitendra_tiw123@rediffmail.com</DIV></TD></TR>
+
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname43'); return true;" 
+            onmousemove="ShowContent('uqname43'); return true;" 
+            onmouseout="HideContent('uqname43'); return true;" align=center><A><u>Seung Bin Baek</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname43 align=center><IMG 
+            src="SeungBinBaek.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>Korea</DIV></TD>
+          <TD>
+            <DIV align=center>Post-Doctoral Researcher</DIV></TD>
+          <TD>
+            <DIV align=center>Exp.</DIV></TD>
+          <TD>
+            <DIV align=center>seungbinbaek@unist.ac.kr</DIV></TD></TR>
+
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname41'); return true;" 
+            onmousemove="ShowContent('uqname41'); return true;" 
+            onmouseout="HideContent('uqname41'); return true;" align=center><A><u>Liashram Tomba Singh</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname41 align=center><IMG 
+            src="tomba.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>India</DIV></TD>
+          <TD>
+            <DIV align=center>Post-Doctoral Researcher</DIV></TD>
+          <TD>
+            <DIV align=center>Exp.</DIV></TD>
+          <TD>
+            <DIV align=center>tomba@postech.ac.kr</DIV></TD></TR>
+
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname42'); return true;" 
+            onmousemove="ShowContent('uqname42'); return true;" 
+            onmouseout="HideContent('uqname42'); return true;" align=center><A><u>Kingsley Christian 
+            Kemp</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname42 align=center><IMG 
+            src="kingsleychristiankemp.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>S. Africa</DIV></TD>
+          <TD>
+            <DIV align=center>Post-Doctoral Researcher</DIV></TD>
+          <TD>
+            <DIV align=center>Exp.</DIV></TD>
+          <TD>
+            <DIV align=center>ckemp@postech.ac.kr</DIV></TD></TR>
+
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname39'); return true;" 
+            onmousemove="ShowContent('uqname39'); return true;" 
+            onmouseout="HideContent('uqname39'); return true;" align=center><A><u>Young Jeon</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname39 align=center><IMG 
+            src="youngjeon.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>Korea</DIV></TD>
+          <TD>
+            <DIV align=center>Research Associate</DIV></TD>
+          <TD>
+            <DIV align=center>Exp.</DIV></TD>
+          <TD>
+            <DIV align=center>youngchun@unist.ac.kr</DIV></TD></TR>
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname40'); return true;" 
+            onmousemove="ShowContent('uqname40'); return true;" 
+            onmouseout="HideContent('uqname40'); return true;" align=center><A><u>Jung-Woo Lee</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname40 align=center><IMG 
+            src="jungwoolee.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>Korea</DIV></TD>
+          <TD>
+            <DIV align=center>Research Associate</DIV></TD>
+          <TD>
+            <DIV align=center>Exp.</DIV></TD>
+          <TD>
+            <DIV align=center>jungwoolee@unist.ac.kr</DIV></TD></TR>
+
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname47'); return true;" 
+            onmousemove="ShowContent('uqname47'); return true;" 
+            onmouseout="HideContent('uqname47'); return true;" align=center><A><u>Seong Wook Yoo</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname47 align=center><IMG 
+            src="seongwookyoo.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>Korea</DIV></TD>
+          <TD>
+            <DIV align=center>Ph.D. Candidate</DIV></TD>
+          <TD>
+            <DIV align=center>Exp.</DIV></TD>
+          <TD>
+            <DIV align=center>absolutely13@postech.ac.kr</DIV></TD></TR>
+
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname45'); return true;" 
+            onmousemove="ShowContent('uqname45'); return true;" 
+            onmouseout="HideContent('uqname45'); return true;" align=center><A><u>Humaira Seema</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname45 align=center><IMG 
+            src="humairaseema.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>Pakistan</DIV></TD>
+          <TD>
+            <DIV align=center>Ph.D. Candidate</DIV></TD>
+          <TD>
+            <DIV align=center>Exp.</DIV></TD>
+          <TD>
+            <DIV align=center>humaira@postech.ac.kr</DIV></TD></TR>
+
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname46'); return true;" 
+            onmousemove="ShowContent('uqname46'); return true;" 
+            onmouseout="HideContent('uqname46'); return true;" align=center><A><u>Wang Keun Lee</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname46 align=center><IMG 
+            src="wangkeunlee.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>Korea</DIV></TD>
+          <TD>
+            <DIV align=center>Ph.D. Student</DIV></TD>
+          <TD>
+            <DIV align=center>Exp.</DIV></TD>
+          <TD>
+            <DIV align=center>kingweek@postech.ac.kr</DIV></TD></TR>
+
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname48'); return true;" 
+            onmousemove="ShowContent('uqname48'); return true;" 
+            onmouseout="HideContent('uqname48'); return true;" align=center><A><u>Le Hon Nhien</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname48 align=center><IMG 
+            src="lehonnhien.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>Vietnam</DIV></TD>
+          <TD>
+            <DIV align=center>Ph.D. Student</DIV></TD>
+          <TD>
+            <DIV align=center>Exp.</DIV></TD>
+          <TD>
+            <DIV align=center>nhien@postech.ac.kr</DIV></TD></TR>
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname49'); return true;" 
+            onmousemove="ShowContent('uqname49'); return true;" 
+            onmouseout="HideContent('uqname49'); return true;" align=center><A><u>Shi Genggongwo</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname49 align=center><IMG 
+            src="shigenggongwo.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>China</DIV></TD>
+          <TD>
+            <DIV align=center>Ph.D. Candidate</DIV></TD>
+          <TD>
+            <DIV align=center>Exp.</DIV></TD>
+          <TD>
+            <DIV align=center>existing@postech.ac.kr</DIV></TD></TR>
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname50'); return true;" 
+            onmousemove="ShowContent('uqname50'); return true;" 
+            onmouseout="HideContent('uqname50'); return true;" align=center><A><u>Muhammad 
+          Yousuf</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname50 align=center><IMG 
+            src="muhammadyousuf.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>Pakistan</DIV></TD>
+          <TD>
+            <DIV align=center>Ph.D. Candidate</DIV></TD>
+          <TD>
+            <DIV align=center>Exp.</DIV></TD>
+          <TD>
+            <DIV align=center>nyousuf@postech.ac.kr</DIV></TD></TR>
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('uqname51'); return true;" 
+            onmousemove="ShowContent('uqname51'); return true;" 
+            onmouseout="HideContent('uqname51'); return true;" align=center><A><u>Muhammad Saleh</u></A></DIV><DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=uqname51 align=center><IMG 
+            src="muhammadsaleh.jpg"></IMG></TD>
+          <TD>
+            <DIV align=center>Pakistan</DIV></TD>
+          <TD>
+            <DIV align=center>Ph.D. Candidate</DIV></TD>
+          <TD>
+            <DIV align=center>Exp.</DIV></TD>
+          <TD>
+            <DIV align=center>salehkhr@postech.ac.kr</DIV></TD></TR>
+        <TR>
+          <TD>
+            <DIV align=center></DIV></TD>
+          <TD>
+            <DIV align=center></DIV></TD>
+          <TD>
+            <DIV align=center></DIV></TD>
+          <TD>
+            <DIV align=center></DIV></TD>
+          <TD>
+            <DIV align=center></DIV></TD>
+          <TD>
+            <DIV align=center></DIV></TD></TR></TBODY></TABLE>
+        
+        </DIV>
+        
+        
+        </td>
+      </tr>
+      <tr bordercolor="#ffffff">
+        <td style="border: none;">
+        <div class="lrpadding7">
+        <span class="head1"><a id="Col" 
+      name="Collaborators"></A>2. Collaborators</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#t">go to top</A>
+      </div>
+      
+      </td>
+      </tr>
+      <tr bordercolor="#ffffff">
+        <td style="border: none;">
+      
+      
+      <div class="lrpadding3">
+        <TABLE border=0 cellSpacing=0 cellPadding=0 width=710 align=center>
+        <TBODY>
+        <TR>
+          <TD class=subhd1>
+            <DIV align=center>Name</DIV></TD>
+          <TD class=subhd1>
+            <DIV align=center>Institute</DIV></TD>
+          <TD class=subhd1>
+            <DIV align=center>E-mail</DIV></TD></TR>
+        <TR>
+          <TD>
+            <DIV onmouseover="ShowContent('co11'); return true;" 
+            onmousemove="ShowContent('co11'); return true;" 
+            onmouseout="HideContent('co11'); return true;" align=center><A><u>Prof. Evert Jan Baerends</u></A></DIV>
+            <DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=co11 align=center><IMG 
+            src="ejbaerends.gif" width="144" height="193"></IMG>
+            
+          
+            
+            
+            </TD>
+           <TD>
+            <DIV align=center>Vrije Universiteit Amsterdam,<br>Netherland</DIV></TD>
+          <TD>
+            <DIV align=center>e.j.baerends@vu.nl </DIV></TD></TR>
+        <tr><TD>
+<DIV onmouseover="ShowContent('co12'); return true;" 
+            onmousemove="ShowContent('co12'); return true;" 
+            onmouseout="HideContent('co12'); return true;" align=center><A><u>Prof. Philip Kim</u></A></DIV>
+            <DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=co12 align=center><IMG 
+            src="philipkim.jpg" width="144" height="193"></IMG>
+            </TD>
+           <TD>
+            <DIV align=center>Columbia University,<br>USA</DIV></TD>
+          <TD>
+            <DIV align=center>pk2015@columbia.edu </DIV></TD></tr>
+            <tr><tr><TD>
+            <DIV onmouseover="ShowContent('co13'); return true;" 
+            onmousemove="ShowContent('co13'); return true;" 
+            onmouseout="HideContent('co13'); return true;" align=center><A><u>Prof. Pavel Hobza</u></A></DIV>
+            <DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=co13 align=center><IMG 
+            src="PavelHobza.jpg" width="144" height="193"></IMG></TD>
+              <TD>
+            <DIV align=center>Institute of Organic Chemistry and Biochemistry, Czech<BR></DIV></TD>
+          <TD>
+            <DIV align=center>hobza@postech.ac.kr</DIV></TD></tr>
+            <tr><TD>
+            <DIV onmouseover="ShowContent('co14'); return true;" 
+            onmousemove="ShowContent('co14'); return true;" 
+            onmouseout="HideContent('co14'); return true;" align=center><A><u>Prof. Alexandre Tkatchenko</u></A></DIV>
+            <DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=co14 align=center><IMG 
+            src="AlexandreTkatchenko.jpg" width="144" height="193"></IMG></DIV></TD>
+             <TD>
+            <DIV align=center>Fritz Haber Institute,<br>Germany</BR></DIV></TD>
+          <TD>
+            <DIV align=center>tkatchenko@postech.ac.kr</DIV></TD></tr>
+            
+<tr> <tr><TD>
+           <DIV onmouseover="ShowContent('co15'); return true;" 
+            onmousemove="ShowContent('co15'); return true;" 
+            onmouseout="HideContent('co15'); return true;" align=center><A><u>Prof. Hardy Gross</u></A></DIV>
+            <DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=co15 align=center><img src="HardyGross.jpg" width="144" height="193"> 
+</img> 
+</TD>
+          <TD>
+            <DIV align=center>Max Planck Institute,<br>Germany</BR></DIV></TD>
+          <TD>
+            <DIV align=center>hardy@mpi-halle.mpg.de </DIV></TD>
+          <TD>
+            <DIV align=center></DIV></TD></tr>
+            <tr> <tr><TD>
+            <DIV onmouseover="ShowContent('co16'); return true;" 
+            onmousemove="ShowContent('co16'); return true;" 
+            onmouseout="HideContent('co16'); return true;" align=center><A><u>Prof. Rodney S. Ruoff</u></A></DIV>
+            <DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=co16 align=center><img src="RodneySRuoff.jpg" width="144" height="193"></img></TD>
+            <TD>
+            <DIV align=center>University of Texas at Austin,<br>USA</DIV></TD>
+          <TD>
+            <DIV align=center>r.ruoff@mail.utexas.edu </DIV></TD></tr>            
+ <tr> <tr><TD>
+            <DIV onmouseover="ShowContent('co17'); return true;" 
+            onmousemove="ShowContent('co17'); return true;" 
+            onmouseout="HideContent('co17'); return true;" align=center><A><u>Prof. So Hirata</u></A></DIV>
+            <DIV style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=co17 align=center><img src="SoHirata.jpg" width="144" height="193"></img>
+</DIV></TD>
+           <TD>
+            <DIV align=center>
+              University of Illinois at Urbana Champaign, USA        
+            </DIV></TD>
+          <TD>
+            <DIV align=center>sohirata@illinois.edu </DIV></TD></tr>           
+            
+ <tr><tr> <tr><TD>
+            <DIV onmouseover="ShowContent('co18'); return true;" 
+            onmousemove="ShowContent('co18'); return true;" 
+            onmouseout="HideContent('co18'); return true;" align=center><A><u>Prof. KiBum Lee</u></A></DIV>
+            <DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=co18 align=center><img src="Kibumlee.jpg" width="144" height="193"> 
+</img> </DIV></TD>
+          <TD>
+            <DIV align=center>
+              Rutgers University,<br>USA       
+            </DIV></TD>
+          <TD>
+            <DIV align=center>kblee@rci.rutgers.edu </DIV></TD></tr>           
+            
+  <tr> <tr><TD>
+           <DIV onmouseover="ShowContent('co19'); return true;" 
+            onmousemove="ShowContent('co19'); return true;" 
+            onmouseout="HideContent('co19'); return true;" align=center><A><u>Prof. Byung Hee Hong</u></A></DIV>
+            <DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=co19 align=center><img src="ByungHeeHong.jpg" width="144" height="193" > 
+</img> </DIV></TD>
+          <TD>
+            <DIV align=center>
+              Seoul National University,<br>Korea
+            </DIV></TD>
+          <TD>
+            <DIV align=center>byunghee@snu.ac.kr </DIV></TD></tr>           
+ <tr> <tr><TD>
+            <DIV onmouseover="ShowContent('co110'); return true;" 
+            onmousemove="ShowContent('co110'); return true;" 
+            onmouseout="HideContent('co110'); return true;" align=center><A><u>Prof. Kilwon Cho</u></A></DIV>
+            <DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=co110 align=center><img src="KilwonCho.jpg" width="144" height="193" > 
+</img> </DIV></TD>
+          <TD>
+            <DIV align=center>
+             POSTECH,<br>Korea
+            </DIV></TD>
+          <TD>
+            <DIV align=center>kwcho@postech.ac.kr  </DIV></TD></tr>                                
+ <tr> <tr><TD>
+           <DIV onmouseover="ShowContent('co111'); return true;" 
+            onmousemove="ShowContent('co111'); return true;" 
+            onmouseout="HideContent('co111'); return true;" align=center><A><u>Prof. Jun Hyung Cho</u></A></DIV>
+            <DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=co111 align=center><img src="JunHyungCho.jpg " width="144" height="193" > 
+</img> </DIV></TD>
+          <TD>
+            <DIV align=center>
+              Hanyang University,<br>Korea
+            </DIV></TD>
+          <TD>
+            <DIV align=center>chojh@hanyang.ac.kr </DIV></TD></tr>                                
+                                             
+   <tr><TD>
+            <DIV onmouseover="ShowContent('co112'); return true;" 
+            onmousemove="ShowContent('co112'); return true;" 
+            onmouseout="HideContent('co112'); return true;" align=center><A><u>Prof. Seung Joo Cho</u></A></DIV>
+            <DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=co112 align=center><img src="SeungJooCho.jpg "width="144" height="193" > 
+</img> </DIV></TD>
+          <TD>
+            <DIV align=center>
+              Chosun University,<br>Korea
+            </DIV></TD>
+          <TD>
+            <DIV align=center>chosj@chosun.ac.kr </DIV></TD></tr> 
+            
+      <tr><TD>
+            <DIV onmouseover="ShowContent('co113'); return true;" 
+            onmousemove="ShowContent('co113'); return true;" 
+            onmouseout="HideContent('co113'); return true;" align=center><A><u>Prof. Dongwook Kim</u></A></DIV>
+            <DIV 
+            style="POSITION: absolute; BORDER-BOTTOM-STYLE: solid; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: solid; BACKGROUND-COLOR: white; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: none; BORDER-TOP-STYLE: solid; BORDER-LEFT-STYLE: solid; PADDING-TOP: 5px" 
+            id=co113 align=center><img src="DongwookKim.jpg 
+" width="144" height="193"> 
+</img></DIV></TD>
+           <TD>
+            <DIV align=center>
+             Kyonggi University,<br>Korea
+            </DIV></TD>
+          <TD>
+            <DIV align=center>dongwook-kim@kga.ac.kr </DIV></TD></tr>                                    
+            <tr>
+
+
+        
+        
+        <TR>
+          <TD>
+            <DIV align=center></DIV></TD>
+          <TD>
+            <DIV align=center></DIV></TD>
+          <TD>
+            <DIV align=center></DIV></TD>
+          <TD>
+            <DIV align=center></DIV></TD>
+          <TD>
+            <DIV align=center></DIV></TD></TR>
+        <TR>
+          <TD>
+            <DIV align=center></DIV></TD>
+          <TD>
+            <DIV align=center></DIV></TD>
+          <TD>
+            <DIV align=center></DIV></TD>
+          <TD>
+            <DIV align=center></DIV></TD>
+          <TD>
+            <DIV align=center></DIV></TD></TR></TBODY></TABLE>
+        
+        </div>
+        </td>
+      </tr>
+      <tr bordercolor="#ffffff">
+        <td style="border: none;">
+        <div class="lrpadding7">
+        <span class="head1"><a id="Al" 
+      name="Alumni"></a>3. Alumni</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#t">go to top</a><br />
+          <br />
+          <strong><em>Recently, there are quite many people from our group  who have gotten faculty positions and high ranking positions in good company.</em></strong>
+      
+      </div>
+      </td>
+      </tr>
+      <tr bordercolor="#ffffff">
+        <td style="border: none;">
+        <div class="lrpadding">
+        <p><span class="subhd1">Professors:</span></STRONG><br /><br />
+			<ul class="ul_decimal">
+					<li>Prof. U-Sung. Choi: Wonkwang University, Dept. of Information &amp; Communication Engineering, 
+					<a href="mailto:uschoi@wonkwang.ac.kr">uschoi@wonkwang.ac.kr</a>
+					 </li>
+					<li>Prof. Byung Jin Mhin: Paichai University, Dept. of Chemistry, 
+					<a href="mailto:mhin@pcu.ac.kr">mhin@pcu.ac.kr</a>
+					 </li>
+					<li>Prof. Jin Yong Lee: Sungkyunkwan University, Dept. of Chemistry, 
+					<a href="mailto:jinylee@skku.edu">jinylee@skku.edu</a>
+					 </li>
+					<li>Prof. Jun-Hyung Cho: Hanyang Unversity, Dept. of Physics, 
+					<a href="mailto:chojh@hanyang.ac.kr">chojh@hanyang.ac.kr</a>
+					 </li>
+					<li>Prof. Seokmin Jeong: Chonbuk National University, Dept. of Physics, 
+					<a href="mailto:jsm@chonbuk.ac.kr">jsm@chonbuk.ac.kr</a>
+					 </li>
+					<li>Prof. Jong Keun Park: Gyeongsang National University, Dept. of Chemistry Education, 
+					<a href="mailto:mc7@gsnu.ac.kr">mc7@gsnu.ac.kr</a>
+					 </li>
+					<li>Prof. Wen Tong Geng: University of Science and Technology Beijing, School of Materials Science &amp; Engineering, China</li>
+					<li>Prof. Tashi Nautyal: Indian Institute Of Technology Roorkee, Dept. of Physics</li>
+					<li>Prof. Maofa Ge: Chinese Academy of Sciences, Institute of Chemistry Chinese Academy of Sciences, 
+					<a href="mailto:gemaofa@iccas.ac.cn">gemaofa@iccas.ac.cn</a>
+					 </li>
+					<li>Prof. Byung Hee Hong: Seoul National University, Dept. of Chemistry, 
+					<a href="mailto:byunghee@snu.ac.kr">byunghee@snu.ac.kr</a>
+					 </li>
+					<li>Prof. Shaowen Hu: Peking University, College of Chemistry and Molecular Engineering, Applied Chemistry, 
+					<a href="mailto:swhu@pku.edu.cn">swhu@pku.edu.cn</a>
+					 </li>
+					<li>Prof. T. K. Manoz Kumar: IIITMK, School of Computational Sciences, 
+					<a href="mailto:manojkumartk@gmail.com">manojkumartk@gmail.com</a>
+					 </li>
+					<li>Prof. Hyun Seok Son: Seoul National University, Graduate School of Public Health, 
+					<a href="mailto:hss2003@snu.ac.kr">hss2003@snu.ac.kr</a>
+					 </li>
+					<li>Prof. Suk Joo Youn: Gyeongsang National University, Dept. of Physics Education, 
+					<a href="mailto:ysj@gsnu.ac.kr">ysj@gsnu.ac.kr</a>
+					 </li>
+					<li>Prof. Plyukhin, Alexander V.: Saint Anselm College, Dept. of Mathematics, 
+					<a href="mailto:aplyukhin@anselm.edu">aplyukhin@anselm.edu</a>
+					 </li>
+					<li>Prof. Seung Joo Cho: Chosun University, School of Medicine 
+					<a href="mailto:chosj@chosun.ac.kr">chosj@chosun.ac.kr</a>
+					 </li>
+					<li>Prof. Woo Youn Kim: KAIST., Dept. Of Chemistry 
+					<a href="mailto:wooyoun@kaist.ac.kr">wooyoun@kaist.ac.kr</a>
+					 </li>
+					<li>Prof. In-Chul Hwang, Sogang Univiversity, Center for Nano Materials, 
+					<a href="mailto:spfe@sogang.ac.kr">spfe@sogang.ac.kr</a>
+					 </li>
+					<li>Prof. Hai-Bo Yi: Hunan University, College of Chemistry and Chemical Engineering, 
+					<a href="mailto:hbyi@hnu.cn">hbyi@hnu.cn</a>
+					 </li>
+					<li>Prof. Sangdeok Shim: SunChon University., Dept. of Chemistry</li>
+					<li>Prof. Petr. Jurecka: Palacky University Olomouc, Department of Physical Chemistry, 
+					<a href="mailto:petr.jurecka@upol.cz">petr.jurecka@upol.cz</a>
+					 </li>
+					<li>Prof. Prakash Chandran: Amrita University, school of Biotechnology, 
+					<a href="mailto:prakashchandran@am.amrita.edu">prakashchandran@am.amrita.edu</a>
+					 </li>
+					<li>Prof. Yewu Wang: Zhejiang University, Dept. of Physics, Institute of condensed matter physics, 
+					<a href="mailto:yewuwang@zju.edu.cn">yewuwang@zju.edu.cn</a>
+					 </li>
+					<li>Prof. Rajesh Kumar: Jaypee Univ. of Information Technology, Dept. of Physics and Materials Science, 
+					<a href="mailto:rajesh.kumar@juit.ac.in">rajesh.kumar@juit.ac.in</a>
+					 </li>
+					<li>Prof. Chunsik Cui: Yanbian Univ. of science &amp; technology, Chemical Process and Technology, 
+					<a href="mailto:czcui2003@yahoo.co.kr">czcui2003@yahoo.co.kr</a>
+					 </li>
+					<li>Prof. Sekyun Kwon: POSTECH,GIFT, 
+					<a href="mailto:sekk@postech.ac.kr">sekk@postech.ac.kr</a>
+					 </li>
+					<li>Prof. Mohan G. P. Krishna: India</li>
+					<li>Prof. Xingtai Zhou: Shanghai Institute of Applied Physics Chinese Academy of Sciences</li>
+					<li>Prof. Indrajit Bandyoppadhyay: Dream Institute of Technology, Kolkata, India, 
+					<a href="mailto:bandyopadhyay.indrajit@gmail.com">bandyopadhyay.indrajit@gmail.com</a>
+					 </li>
+				</ul>
+
+
+
+
+         <p><span class="subhd1">Visiting Professors:</span><br /><br />
+				<ul class="ul_decimal">
+					<li>Prof. Kui-Juan Jin: China Univ of Science and Technology, China</li>
+					<li>Prof. Feng Wang, Beijing Univ of Science and Technology, China</li>
+					<li>Prof. J. Wang, School of Science, Huzhou University, China </li>
+				</ul>
+
+          <p><span class="subhd1">Research Positions in Foreign Countries:</span> <br /><br />
+   <ul class="ul_decimal">
+					<li>Prof. P. Tarakeshwar: Arizona State Univ. Dept. of Chemistry, USA, (former: Assist. Prof.: KIAS, Dept. of Computational Science), 
+					<a href="mailto:p.tarakeshwar@gmail.com">p.tarakeshwar@gmail.com</a>
+					 </li>
+					<li>Dr. Sung Chul Bae (University of Illinois at Urbana Champaign)</li>
+					<li>Prof. Chi Wan Lee: (former: Assist. Prof.; University of Massachussets. Biochemistry &amp; Molecular Pharmacology</li>
+					<li>Dr. Pentrenko</li>
+					<li>Dr. Mikhail V. Zhuravlev </li>
+				</ul>
+          <p><span class="subhd1">National Laboratories/Industry:</span> <br /><br />
+				<ul class="ul_decimal">
+					<li>Dr. Sang Joo Lee (KISTI: Daejeon)</li>
+					<li>Dr. Sik Lee (KISTI: Daejeon)</li>
+					<li>Dr. Jong Seob Kim (Samsung: Suwon)</li>
+					<li>Dr. Seung Bum Suh (Samsung)</li>
+					<li>Dr. Hyuk Soon Choi (Samsung: Suwon)</li>
+					<li>Dr. Kyung Seok Oh (SK Pharmaceuticals, Daejeon)</li>
+					<li>Dr. Jung Mee Park (KIAS) </li>
+					<li>Dr. Anupriya Kumar, Post-Doctoral Scholar, AstraZeneca R&amp;D, IISC, Bangalore, India</li>
+					<li>Mr. Jang Woo Yoon (USA, VeUniversity of Florida, Gainesville; Computer Science)</li>
+					<li>Mr. Jung Joo Yoon (USA, Venture Company; Stanford University, Chemistry)</li>
+					<li>Dr. Eun Cheol Lee (Samsung)</li>
+					<li>Dr. Nongmaithen Jiten Singh (Samsung)</li>
+					<li>Dr. Ji Hoon Jang (venture company)</li>
+					<li>Mr. Sung Wook Kim (S/W venture company: Chairman)</li>
+					<li>Dr. Suk Jong Lee (Samsung, Daejeon)</li>
+					<li>Dr. Jong Sun Woo (Chemical industry, Busan)</li>
+					<li>Dr. Soon Yong Jung (LG, Daejeon)</li>
+					<li>Dr. Young Duck Suh (KRICT)</li>
+					<li>Dr. Oh (Venture company)</li>
+					<li>Dr. Dong wha Oh (Yonsei University, Seoul)</li>
+					<li>Dr. Heon Gon Kim (Venture company, Ansan)</li>
+					<li>Dr. Sung Goo Yoon (Samsung)</li>
+					<li>Dr. Seongeun Yang (Korea University, Seoul)</li>
+					<li>Hae Yong Jung (University of Pennsylvania; Computer Science)</li>
+					<li>Dr. D. Majumdar: (Jackson State University, Mississippi, US)</li>
+					<li>Dr. Hua Zhao (Canada)</li>
+					<li>Dr. B. Sahu (University of Texas, Austin)</li>
+					<li>Dr. Hye Jae Ihm (Soongsil University, Seoul)</li>
+					<li>Dr. Gap Sue Kim (Taiwan University)</li>
+					<li>Ms. Jee Won Baik (Samsung SDS) </li>
+					<li>Mr. Woo Jin Lee (Samsung SDS)</li>
+					<li>Ms. Yu Kyung Kim (Samsung Electronics)</li>
+					<li>Mr. Won Min Park (Samyang, Daejeon)</li>
+					<li>Prof. Hahn Soo Shim (College) </li>
+				</ul>
+
+
+
+
+
+            <p><span class="subhd1">Post-Docs:</span> <br /><br />
+				<ul class="ul_decimal">
+					<li>Dr. Jung Won Park, Harvard</li>
+				</ul>
+
+
+
+            <p><span class="subhd1">Previous Visitors:</span> <br /><br />
+				<ul class="ul_decimal">
+					<li>Professor Abraham Nitzan (University of Tel Aviv, Israel)</li>
+					<li>Professor Tashi Nautyal (IIT, Roorkee, India)</li>
+					<li>Professor Kui-juan Jin (Chinese Academy of Sciences, Shanghai) </li>
+					<li>Dr. Venu, India</li>
+					<li>Dr. Gosh, India</li>
+				</ul>
+
+
+
+
+          <p><span class="subhd1">Former Members(CSM): </span> <br /><br />
+				<ul class="ul_decimal">
+					<li>Young Man Hahn(KISTI)</li>
+					<li>Young Joon Kong</li>
+					<li>Jee Young Noh (Samsung)</li>
+					<li>Kwang Ho Kim (Joongang Univ.)</li>
+					<li>Jung Ran Ko (Ewha Univ.)</li>
+					<li>Jin Ah Kim (Busan National Univ.)</li>
+					<li>Sun Jin Cho (US)</li>
+					<li>Jung Kyung Kim</li>
+					<li>Joo Bin Ihm</li>
+					<li>Sang Joon Oh</li>
+					<li>Kwang Ho Kim</li>
+					<li>Sang Hee Lee(Hyundai)</li>
+					<li>Hyung il Park</li>
+					<li>Hahn Soo Shim</li>
+					<li>Hong Seob Whang (KJIST)</li>
+					<li>Jung Won Lee</li>
+					<li>Eun Jin Jung (US)</li>
+					<li>Jin Sung Kim</li>
+					<li>Hee Sun Hwang</li>
+					<li>Eun Jin Jung</li>
+				</ul>
+
+
+         <p><span class="subhd1">Graduated as a Ph.D's Degree:</span> <br /><br />
+	<ul class="ul_decimal">
+					<li>Dr. So Jung Yoon, 201202, I-BIO, SAIT(Samsung) </li>
+					<li>Dr. Jabeen Humeraja, 201202, Chemistry, Professor</li>
+					<li>Dr. Nisar Ahmed, 201202, Chemistry, CSM</li>
+					<li>Dr. Seung Kyu Min, 201108, Chemistry, MAX PLANK</li>
+					<li>Dr. Jae Sung Park, 201108, Chemistry, Seoul National Univ. Post-Doc</li>
+					<li>Dr. Dong Young Kim, 201102, Chemistry, SAIT(Samsung)</li>
+					<li>Dr. Ju Young Lee, 201002, Chemistry, CSM</li>
+					<li>Dr. Kumar Anupriya, 200908, Chemistry, Astrazeneca R&amp;D. IISC</li>
+					<li>Dr. Woo Yun Kim, 200902, Chemistry, Professor of KAIST</li>
+					<li>Dr. Eun Cheol Lee, 200902, Chemistry, Samsung</li>
+					<li>Dr. Young Cheol Choi, 200902, Chemistry, LG</li>
+					<li>Dr. Mi Na Park, 200808, Chemistry, KIAS</li>
+					<li>Dr. Singh. N. Jiten, 200602, Chemistry, Samaung SDI</li>
+					<li>Dr. Dong Wook Kim, 200308, Chemistry, Professor of Kyonggi Univ.</li>
+					<li>Dr. Seung Bum Suh, 200302, Chemistry, Samsung</li>
+					<li>Dr. Jung Mi Park, 200208, Chemistry, KIAS</li>
+					<li>Dr. Byung Hee Hong, 200208, Chemistry, Professor of Seoul National Univ.</li>
+					<li>Dr. Kyung Seok Oh, 200008, Chemistry, SK</li>
+					<li>Dr. Hyuk Soon Choi, 200008, Chemistry, Samsung</li>
+					<li>Dr. Jong Seob Kim, 199902, Chemistry, Samsung</li>
+					<li>Dr. Chun Sik Cui, 199802, Chemistry, Professor of YanBian Univ.</li>
+					<li>Dr. Jin Yong Lee, 199708, Chemistry, Professor of Sungkyunkwan Univ.</li>
+					<li>Dr. Sang Ju Lee, 199608, Chemistry, KISTI</li>
+					<li>Dr. Sik Lee, 1996608, Chemistry, KISTI</li>
+					<li>Dr. Seung Joo Cho, 199608, Chemistry, Professor of Chosun Univ.</li>
+					<li>Dr. Byung Jin Mhin, 199308, Chemistry, Professor of Pai Chai Univ. </li>
+				</ul>
+				
+         <p><span class="subhd1">Graduated as a Master's Degree:</span> <br /><br />
+<ul class="ul_decimal">
+					<li>Yoen Suk Hong, 200508, Chemistry, LG</li>
+					<li>Zhou Hong, 200508,Enviromental Science and Engineering, China</li>
+					<li>Ju Young Lee, 200402, Chemistry, CSM</li>
+					<li>Eun Cheol Lee, 200308, Chmistry, Samsung</li>
+					<li>Jong Chan Kim, 200302, Chemistry, LG</li>
+					<li>Yu Kyung Kim, 200208, Chemistry, Samsung</li>
+					<li>Woo Jin Lee, 200102, Chemistry, Samsung SDS</li>
+					<li>Byung Hee Hong, 200002, Chemistry, Professor of Seoul National Univ.</li>
+					<li>Ji Won Baik, 199902, Chemistry, Samsung SDS</li>
+					<li>Seung Bum Suh, 199902, Chemistry, Samsung SDS </li>
+					<li>Kyung Seok Oh, 199802, Chemistry, Sk</li>
+					<li>Hyuk Soon Choi, 199702, Chemistry, Samsung</li>
+					<li>Jung Mi Park, 199602, Chemistry, KIAS</li>
+					<li>Jong Seob Kim, 199502, Chemistry, Samsung</li>
+					<li>Won Min Park, 199402, Chemistry, Samyang</li>
+					<li>Jin Yong Lee, 199402, Chemistry, Professor of Sungkyunkwan Univ.</li>
+					<li>Sang Ju Lee, 199302, Chemistry, KISTI</li>
+					<li>Sik Lee, 199302, Chemistry, KISTI</li>
+					<li>Jang Woo Yoon, 199208, Chemistry, Venture Lab, USA</li>
+					<li>Seung Joo Cho, 199208, Chemistry, Professor of Chosun Univ.</li>
+					<li>Ji Hwan Jang, 199002, Chemistry, Venture Company</li>
+					<li>Sung Wook Kim, 199002, Chemistry, S/W Venture Company </li>
+					
+					</ul>
+
+            </div>
+            </td>
+      </tr>
+ 
+      <tr bordercolor="#ffffff">
+        <td class="subtest1"  style="border: none;">
+        <div class="lrpadding2">
+        <p class="ruleb">
+		
+
+
+
+		<SCRIPT type=text/javascript>
+<!--
+document.write('&copy;', new Date().getFullYear(), ' <a href="http://www.postech.ac.kr" target=_blank>Postech</a>');
+// -->
+      </SCRIPT>
+      </A>| <A href="http://www.postech.ac.kr/department/chem/NewWeb/" target=_blank>Postech 
+      Chemistry</A> |
+      <SCRIPT language=JavaScript type=text/javascript>
+
+   <!--
+   var contact = "Webmaster"
+   var email = "sschoi"
+   var emailHost = "postech.ac.kr"
+   document.write("<a href=" + "mail" + "to:" + email + "@" + emailHost+ 
+ ">" + contact + "</a>")
+   //-->
+
+              </SCRIPT>
+
+
+
+       | <A href="../localusers/index.html" target=_blank>Local 
+users</A></p>
+</div>
+</td>
+      </tr>
+    </table>
+    </TD>
+    </TR>
+  <TR>
+    <TD align=left vAlign=top>
+  </TD></TR></TBODY></TABLE>
+
+</BODY>
+</HTML>
