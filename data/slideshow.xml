@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<medias>
+
+
+<album title="SWOCS, 2011" folder="2011swocs">
+	<media caption="SWOCS, 2011">2011swocs1.jpg</media>
+	<media caption="SWOCS, 2011">2011swocs2.jpg</media>
+	
+	</album>
+
+<album title="After the short trip" folder="aftertoham">
+	<media caption="Near the chemistry building">aftertoham1.jpg</media>
+	
+	</album>
+	
+
+	<album title="Tohamsan" folder="tohamsan">
+	<media caption="Gyeongju">tohamsan1.jpg</media>
+	<media caption="Gyeongju">tohamsan2.jpg</media>
+	<media caption="Gyeongju">tohamsan3.jpg</media>
+	<media caption="Gyeongju">tohamsan4.jpg</media>
+	<media caption="Gyeongju">tohamsan5.jpg</media>
+	<media caption="Gyeongju">tohamsan6.jpg</media>
+	
+	</album>
+	
+	<album title="In front of the chem. bldg." folder="infrontofchem">
+	<media caption="In front of the chemistry building">infrontofchem1.jpg</media>
+	<media caption="CSM">infrontofchem2.jpg</media>
+	<media caption="In front of the chem. bldg.">infrontofchem3.jpg</media>
+	
+	</album>
+	
+
+
+	<album title="SWOCS, 2010" folder="2010swocs">
+	<media caption="SWOCS, 2010">2010swocs1.jpg</media>
+	<media caption="SWOCS, 2010">2010swocs2.jpg</media>
+	<media caption="SWOCS, 2010">2010swocs3.jpg</media>
+	
+	</album>
+
+
+
+	<album title="Picnic" folder="picnic">
+	<media caption="Enjoy!">picnic1.jpg</media>
+	<media caption="Enjoy!">picnic2.jpg</media>
+	<media caption="Enjoy!">picnic3.jpg</media>
+	
+	</album>
+
+	<album title="A media report" folder="nanolensnews">
+	<media caption="Highlighted in a newspaper">nanolensnews1.jpg</media>
+	
+	</album>
+
+
+
+
+	<album title="National Scientist" folder="nationalst">
+	<media caption="Awarded by the NRF of Korea">nationalst1.jpg</media>
+    <media caption="Awarded by the NRF of Korea">nationalst2.jpg</media>
+	
+	</album>
+
+	
+</medias>
